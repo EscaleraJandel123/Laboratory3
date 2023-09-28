@@ -25,13 +25,21 @@ class ProductController extends BaseController
       return redirect()->to('/home');
     }
   }
-
+  //home panel
   public function home()
   {
     $data = [
       'items' => $this->product->findAll()
     ];
     return view('index', $data);
+  }
+  //admin pannel
+  public function admin()
+  {
+    $data = [
+      'items' => $this->product->findAll()
+    ];
+    return view('admin', $data);
   }
 
 }
