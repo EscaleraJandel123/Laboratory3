@@ -12,13 +12,7 @@ class ProductController extends BaseController
   {
     $this->product = new \App\Models\ProductModel();
   }
-  public function admin()
-  {
-    $data = [
-      'items' => $this->product->findAll()
-    ];
-    return view('admin', $data);
-  }
+
   public function productDetails($id)
   {
     $product = $this->product->find($id);
@@ -39,6 +33,5 @@ class ProductController extends BaseController
     ];
     return view('index', $data);
   }
-  
-  
+
 }

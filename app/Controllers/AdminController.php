@@ -6,6 +6,20 @@ use App\Controllers\BaseController;
 use App\Models\UserModel;
 class AdminController extends BaseController
 {
+
+    private $product;
+    public function __construct()
+    {
+      $this->product = new \App\Models\ProductModel();
+    }
+    public function admin()
+    {
+      $data = [
+        'items' => $this->product->findAll()
+      ];
+      return view('admin', $data);
+    }
+  
   public function login()
   {
       helper(['form']);

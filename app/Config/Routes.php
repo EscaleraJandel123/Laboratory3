@@ -10,7 +10,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'ProductController::home');
 $routes->get('/productDetails/(:any)', 'ProductController::productDetails/$1');
 
-$routes->get('/admin', 'ProductController::admin');
+$routes->get('/admin', 'AdminController::admin', ['filter' => 'authGuard']);
 
 $routes->get('/login', 'AdminController::login');
 $routes->post('/authlog', 'AdminController::authlog');
