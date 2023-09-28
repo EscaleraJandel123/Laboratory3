@@ -10,6 +10,10 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'ProductController::home');
 $routes->get('/productDetails/(:any)', 'ProductController::productDetails/$1');
 
-$routes->match(['post', 'get'], '/login', 'ProductController::login');
-//$routes->get('/signup', 'UserController::register' , ['filter' => 'AuthGuard']);
-$routes->get('/admin', 'AdminController::admin');
+$routes->get('/admin', 'ProductController::admin');
+
+$routes->get('/login', 'AdminController::login');
+$routes->post('/authlog', 'AdminController::authlog');
+$routes->get('/register', 'AdminController::register');
+$routes->post('/authreg', 'AdminController::authreg');
+

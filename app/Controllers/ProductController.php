@@ -8,12 +8,16 @@ class ProductController extends BaseController
 {
 
   private $product;
-  private $user;
-
   public function __construct()
   {
     $this->product = new \App\Models\ProductModel();
-    $this->user = new \App\Models\UserModel();
+  }
+  public function admin()
+  {
+    $data = [
+      'items' => $this->product->findAll()
+    ];
+    return view('admin', $data);
   }
   public function productDetails($id)
   {
@@ -35,30 +39,6 @@ class ProductController extends BaseController
     ];
     return view('index', $data);
   }
-
-  public function login()
-  {
-    $session = session();
-    if (isset($_POST['login'])) {
-      $email = $this->request->getVar('email');
-      $password = $this->request->getVar('password');
-      $check = $this->user->where('email', $email)->where('password', $password)->first();
-      if ($check) {
-        $data = [
-          'email' => $check['email'],
-          'isLoggedIn' => TRUE
-        ];
-        $session->set($data);
-        return redirect()->to('/admin');
-      }
-
-    } else {
-      return view('login');
-    }
-  }
   
-  public function index()
-  {
-    //
-  }
+  
 }
