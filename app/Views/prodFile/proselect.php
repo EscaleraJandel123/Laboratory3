@@ -16,7 +16,9 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="box">
                         <div class="img-box">
-                            <?= $item['image'] ?>
+                            <a href="<?= base_url('productDetails/'.$item['id']) ?>">
+                                <img src="<?= $item['image'] ?>" alt="product image">
+                            </a>
                         </div>
                         <div class="detail-box">
                             <span class="rating">

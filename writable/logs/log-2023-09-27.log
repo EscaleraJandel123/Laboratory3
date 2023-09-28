@@ -1,0 +1,103 @@
+CRITICAL - 2023-09-27 12:24:59 --> Call to a member function where() on null
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:25:14 --> Call to a member function where() on null
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:26:56 --> Call to a member function where() on null
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:27:03 --> Call to a member function where() on null
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:38:56 --> Undefined variable $items
+in APPPATH\Views\admin.php on line 10.
+ 1 APPPATH\Views\admin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProductController.php(30): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:56:09 --> Undefined variable $items
+in APPPATH\Views\prodFile\proselect.php on line 15.
+ 1 APPPATH\Views\prodFile\proselect.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\prodFile\\proselect.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\prodFile\\proselect.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/prodFile/proselect', [], true)
+ 5 APPPATH\Views\productDetails.php(7): view('/prodFile/proselect')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\productDetails.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productDetails', [], true)
+ 9 APPPATH\Controllers\ProductController.php(23): view('productDetails', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->productDetails('2')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 12:58:03 --> Undefined variable $items
+in APPPATH\Views\prodFile\proselect.php on line 15.
+ 1 APPPATH\Views\prodFile\proselect.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\prodFile\\proselect.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\prodFile\\proselect.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/prodFile/proselect', [], true)
+ 5 APPPATH\Views\productDetails.php(7): view('/prodFile/proselect')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\productDetails.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productDetails', [], true)
+ 9 APPPATH\Controllers\ProductController.php(23): view('productDetails', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->productDetails('2')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 13:22:07 --> "noauth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 350.
+ 1 SYSTEMPATH\Filters\Filters.php(350): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('noauth')
+ 2 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\Filters\Filters->enableFilter('noauth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 13:29:42 --> Undefined variable $items
+in APPPATH\Views\admin.php on line 20.
+ 1 APPPATH\Views\admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProductController.php(51): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-27 13:30:21 --> Undefined variable $items
+in APPPATH\Views\admin.php on line 20.
+ 1 APPPATH\Views\admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\ProductController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
