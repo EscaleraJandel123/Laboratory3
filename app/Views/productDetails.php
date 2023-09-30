@@ -24,7 +24,7 @@
         <div class="col-sm-6 col-lg-4">
           <div class="box">
             <div class="img-box">
-              <img src="/uploads/<?= $product['image'] ?> alt="">
+              <img src="/uploads/<?= $product['image'] ?>" alt="">
             </div>
             <div class="detail-box">
               <span class="rating">
