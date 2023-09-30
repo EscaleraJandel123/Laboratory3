@@ -40,9 +40,9 @@
 										<?= $item['price']; ?>
 									</td>
 									<td>
-										<a href="/edit/<?= $item['id'] ?>" class="edit" 	><i
+										<a href="/edit/<?= $item['id'] ?>" class="edit"><i
 												class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a></a>
-										<a href="/delete/<?= $item['id'] ?>" class="delete"><i class="material-icons"
+										<a href="/delete/<?= $item['id'] ?>" class="delete"><i data-toggle="tooltip" class="material-icons"
 												title="Delete">&#xE872;</i></a>
 									</td>
 								</tr>
