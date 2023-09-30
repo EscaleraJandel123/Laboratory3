@@ -17,7 +17,7 @@
                     <div class="box">
                         <div class="img-box">
                             <a href="<?= base_url('productDetails/'.$item['id']) ?>">
-                                <img src="<?= $item['image'] ?>" alt="product image">
+                                <img src="/uploads/<?= $item['image'] ?>" alt="product image">
                             </a>
                         </div>
                         <div class="detail-box">

@@ -29,7 +29,8 @@
 							foreach ($items as $item): ?>
 								<tr>
 
-									<td><img src="<?= $item['image']; ?>" alt="<?= $item['name']; ?>" width="100"></td>
+									<td><img src="/uploads/<?= $item['image']; ?>" alt="<?= $item['name']; ?>" width="100"></td>
+
 									<td>
 										<?= $item['name']; ?>
 									</td>

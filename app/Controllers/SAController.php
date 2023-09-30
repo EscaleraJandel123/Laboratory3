@@ -30,24 +30,6 @@ class SAController extends BaseController
     $this->product->delete($id);
     return redirect()->to('/admin');
   }
-
-  // public function save()
-  // {
-  //   $id = $_POST['id'];
-  //   $data = [
-  //     'image' => $this->request->getFile('image'),
-  //     'name' => $this->request->getVar('name'),
-  //     'description' => $this->request->getVar('description'),
-  //     'price' => $this->request->getVar('price'),
-  //   ];
-
-  //   if ($id != null) {
-  //     $this->product->set($data)->where('id', $id)->update();
-  //   } else {
-  //     $this->product->save($data);
-  //   }
-  //   return redirect()->to('/admin');
-  // }
   public function save()
   {
       $id = $this->request->getPost('id');
@@ -57,22 +39,20 @@ class SAController extends BaseController
           'price' => $this->request->getPost('price'),
       ];
   
-      // Check if an image file was uploaded
+      // Check kung ang image file was uploaded
       if ($imageFile = $this->request->getFile('image')) {
           // Generate a unique name for the uploaded image
           $imageName = $imageFile->getRandomName();
   
           // Set the path to the upload directory
-          $uploadPath = WRITEPATH . 'uploads/'; // You can change this path
-  
+          $uploadPath = FCPATH . 'uploads/';
+
           // Move the uploaded image to the upload directory
           if ($imageFile->move($uploadPath, $imageName)) {
               // Image upload successful, store the image filename in the database
               $data['image'] = $imageName;
           } else {
-              // Image upload failed, handle the error
               $error = $imageFile->getError();
-              // You can log or display the error message
           }
       }
   
