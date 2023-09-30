@@ -25,7 +25,7 @@
               </div>
               <div class="col-md-6 col-lg-7">
                 <div class="img-box">
-                  <img src="images/slider-img.png" alt="">
+                  <img src="<?= base_url() ?>images/slider-img.png" alt="">
                 </div>
               </div>
             </div>
