@@ -1,0 +1,213 @@
+CRITICAL - 2023-09-30 13:13:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:17:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:17:26 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:18:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:25:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:25:30 --> Call to a member function getName() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:27:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:27:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:28:09 --> Call to a member function getErrorString() on null
+in APPPATH\Controllers\SAController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:39:14 --> Call to a member function getName() on null
+in APPPATH\Controllers\SAController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+ERROR - 2023-09-30 13:44:14 --> mysqli_sql_exception: Column 'image' cannot be null in C:\laragon\www\Laboratory3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Laboratory3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `it...', 0)
+#1 C:\laragon\www\Laboratory3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 C:\laragon\www\Laboratory3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 C:\laragon\www\Laboratory3\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 C:\laragon\www\Laboratory3\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Laboratory3\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Laboratory3\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Laboratory3\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Laboratory3\app\Controllers\SAController.php(22): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Laboratory3\system\CodeIgniter.php(919): App\Controllers\SAController->save()
+#10 C:\laragon\www\Laboratory3\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+#11 C:\laragon\www\Laboratory3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Laboratory3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Laboratory3\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-30 13:44:14 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `items` (`image`, `name`, `description`, `price`) VALUES (:image:, :name:, :description:, :price:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\SAController.php(22): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:46:05 --> syntax error, unexpected identifier "ppublic", expecting "function" or "const"
+in APPPATH\Controllers\SAController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Laboratory3\\app\\Controllers\\SAController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SAController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SAController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SAController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 13:46:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\SAController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:21:32 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:21:36 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:21:45 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:22:51 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:23:01 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:23:03 --> Undefined variable $pr
+in APPPATH\Views\admin.php on line 37.
+ 1 APPPATH\Views\admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pr', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(51): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:54:35 --> Undefined variable $conditionIsMet
+in APPPATH\Views\admin.php on line 38.
+ 1 APPPATH\Views\admin.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conditionIsMet', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(50): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 14:54:35 --> Undefined variable $conditionIsMet
+in APPPATH\Views\admin.php on line 38.
+ 1 APPPATH\Views\admin.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conditionIsMet', 'C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Laboratory3\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\SAController.php(50): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SAController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SAController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Laboratory3\\public\\index.php')

@@ -25,7 +25,7 @@ class ProductController extends BaseController
       return redirect()->to('/home');
     }
   }
-  //home panel
+  //Return datas
   public function home()
   {
     $data = [
@@ -34,12 +34,12 @@ class ProductController extends BaseController
     return view('index', $data);
   }
   //admin pannel
-  public function admin()
-  {
-    $data = [
-      'items' => $this->product->findAll()
-    ];
-    return view('admin', $data);
-  }
+  // public function admin()
+  // {
+  //   $data = [
+  //     'items' => $this->product->findAll()
+  //   ];
+  //   return view('admin', $data);
+  // }
 
 }
