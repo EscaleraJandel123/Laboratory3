@@ -8,6 +8,9 @@ use CodeIgniter\Router\RouteCollection;
 //home
 $routes->get('/', 'ProductController::home');
 $routes->get('/home', 'ProductController::home');
+$routes->get('/about', 'ProductController::about');
+$routes->get('/fruits', 'ProductController::fruits');
+
 $routes->get('/productDetails/(:any)', 'ProductController::productDetails/$1');
 
 //Logs
@@ -22,4 +25,3 @@ $routes->get('/admin', 'SAController::admin', ['filter' => 'authGuard']);
 $routes->post('/save', 'SAController::save');
 $routes->get('/delete/(:any)', 'SAController::delete/$1');
 $routes->get('/edit/(:any)', 'SAController::edit/$1');
-

@@ -43,7 +43,7 @@
             <?php endforeach; ?>
         </div>
         <div class="btn-box">
-            <a href="">
+            <a href="/fruits">
                 View All
             </a>
         </div>

@@ -16,14 +16,14 @@
               <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html"> About</a>
+              <a class="nav-link" href="/about"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="fruit.html">Fruits</a>
+              <a class="nav-link" href="/fruits">Fruits</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="/login">Login</a>
             </li>

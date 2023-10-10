@@ -25,6 +25,7 @@ class SAController extends BaseController
     }
     return view('admin', $data);
   }
+  
   public function delete($id)
   {
     $this->product->delete($id);
@@ -66,6 +67,7 @@ class SAController extends BaseController
   
       return redirect()->to('/admin');
   }
+
   //return data from the items
   public function admin()
   {

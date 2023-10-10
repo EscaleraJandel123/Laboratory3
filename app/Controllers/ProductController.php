@@ -28,18 +28,28 @@ class ProductController extends BaseController
   //Return datas
   public function home()
   {
+      $allProducts = $this->product->findAll();
+      
+      // Limit the products to 3 items
+      $limitedProducts = array_slice($allProducts, 0, 6);
+      
+      $data = [
+          'items' => $limitedProducts
+      ];
+      
+      return view('index', $data);
+  }
+  
+  public function about()
+  {
+    return view('about');
+  }
+
+  public function fruits()
+  {
     $data = [
       'items' => $this->product->findAll()
     ];
-    return view('index', $data);
+    return view('fruits', $data);
   }
-  //admin pannel
-  // public function admin()
-  // {
-  //   $data = [
-  //     'items' => $this->product->findAll()
-  //   ];
-  //   return view('admin', $data);
-  // }
-
 }
