@@ -1,5 +1,4 @@
-<!-- info section -->
-
+<?= view('/prodFile/banner'); ?>
 <section class="info_section ">
     <div class="info_container ">
       <div class="container">
@@ -71,3 +70,4 @@
   </section>
 
   <!-- end info section -->
+  <?= view('/prodFile/end'); ?>

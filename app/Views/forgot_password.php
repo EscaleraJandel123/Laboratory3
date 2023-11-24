@@ -39,11 +39,10 @@
                 </div>
                 <div>
                 </div>
-                <form class="login100-form validate-form" action="/authlog" method="post">
+                <form class="login100-form validate-form" action="/reset_password" method="post">
                     <span class="login100-form-title">
-                        Admin Login
+                        Forgot Password
                     </span>
-
                     <div class="wrap-input100">
                         <input class="input100" type="text" name="username" placeholder="User Name">
                         <span class="focus-input100"></span>
@@ -51,7 +50,6 @@
                             <i class="fa fa-user" aria-hidden="true"></i>
                         </span>
                     </div>
-
                     <div class="wrap-input100 validate-input" data-validate="Password is required">
                         <input class="input100" type="password" name="password" placeholder="Password">
                         <span class="focus-input100"></span>
@@ -59,32 +57,15 @@
                             <i class="fa fa-lock" aria-hidden="true"></i>
                         </span>
                     </div>
-
                     <div class="container-login100-form-btn">
                         <button class="login100-form-btn" name="save">
-                            Login
+                            Reset Password
                         </button>
-                        <div class="container-login100-form-btn">
-                            <a href="/home" class="login100-form-btn btn-sm" name="save">
-                                <i class="fa fa-home"></i> Home
-                            </a>
-                        </div>
                     </div>
                     <div class="text-center p-t-12">
-                        <span class="txt1">
-                            Forgot
-                        </span>
-                        <a class="txt2" href="/forgot_password">
-                            Username / Password?
+                        <a class="txt2" href="/login">
+                            Back to Login
                         </a>
-                    </div>
-
-                    <div class="text-center p-t-136">
-                        <a class="txt2" href="/register">
-                            Create your Account
-                            <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-                        </a>
-
                     </div>
                 </form>
             </div>

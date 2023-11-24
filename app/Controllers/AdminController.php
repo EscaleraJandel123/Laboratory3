@@ -7,8 +7,6 @@ use App\Models\UserModel;
 
 class AdminController extends BaseController
 {
-
-
     public function login()
     {
         helper(['form']);
@@ -72,7 +70,7 @@ class AdminController extends BaseController
                     'isLoggedIn' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/admin');
+                return redirect()->to('/dashboard');
 
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect.');
@@ -83,6 +81,48 @@ class AdminController extends BaseController
             return view('login');
         }
     }
+
+    //     public function forgotPassword()
+// {
+//     helper(['form']);
+//     $data = [];
+//     return view('forgot_password', $data);
+// }
+
+    // public function resetPassword()
+// {
+//     helper(['form']);
+//     $rules = [
+//         'username' => 'required|min_length[1]|max_length[100]',
+//     ];
+
+    //     if ($this->validate($rules)) {
+//         $userModel = new UserModel();
+//         $username = $this->request->getVar('username');
+//         $password = $this->request->getVar('password');
+
+    //         $userData = $userModel->where('username', $username)->first();
+//         if ($userData) {
+//             // Generate a random password
+//             $tempPassword = bin2hex(random_bytes(8)); // Example of a temporary password
+
+    //             // Update the user's password in the database
+//             $userModel->update($userData['id'], ['password' => password_hash($tempPassword, PASSWORD_DEFAULT)]);
+
+    //             // Send an email to the user with the temporary password or a password reset link
+//             // You can use PHP's mail function or a library like PHPMailer or other email service providers
+
+    //             // Redirect the user to a page to inform them about the password reset
+//             return redirect()->to('/login')->with('success', 'Password reset instructions sent to your email.');
+//         } else {
+//             // If the username does not exist, inform the user
+//             return redirect()->to('/forgot_password')->with('error', 'Username does not exist.');
+//         }
+//     } else {
+//         $data['validation'] = $this->validator;
+//         echo view('forgot_password', $data);
+//     }
+// }
 
     public function index()
     {

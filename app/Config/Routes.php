@@ -19,6 +19,10 @@ $routes->post('/authlog', 'AdminController::authlog');
 $routes->get('/register', 'AdminController::register');
 $routes->post('/authreg', 'AdminController::authreg');
 $routes->get('/logout', 'AdminController::logout');
+$routes->get('/logout', 'AdminController::logout');
+
+// $routes->get('/forgot_password', 'AdminController::forgotPassword');
+// $routes->post('/reset_password', 'AdminController::resetPassword');
 
 //admin
 $routes->get('/admin', 'SAController::admin', ['filter' => 'authGuard']);
