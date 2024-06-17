@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="<?= base_url() ?>css/bootstrap.css" />
 
   <!-- fonts style -->
-  <link href="<?= base_url() ?>https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!-- font awesome style -->
   <link href="<?= base_url() ?>css/font-awesome.min.css" rel="stylesheet" />

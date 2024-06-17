@@ -70,7 +70,7 @@ class AdminController extends BaseController
                     'isLoggedIn' => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/dashboard');
+                return redirect()->to('/admin');
 
             } else {
                 $session->setFlashdata('msg', 'Password is incorrect.');
